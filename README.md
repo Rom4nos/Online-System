@@ -9,12 +9,12 @@ Aqui estão algumas imagens do projeto, tanto para desktop quanto para mobile:
 ### Desktop
 
 ![Tela Principal - Desktop](Images/Image1.png)
-![Dashboard - Desktop](Images/images2.png)
+![Dashboard - Desktop](Images/Image2.png)
 
 ### Mobile
 
-![Tela Principal - Mobile](Images/images3.png)
-![Dashboard - Mobile](Images/images4.png)
+![Tela Principal - Mobile](Images/Image3.png)
+![Dashboard - Mobile](Images/Image4.png)
 
 ## Começando
 

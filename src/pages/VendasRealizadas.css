@@ -1,0 +1,183 @@
+/* Container principal para o componente */
+.vendasRealizadas-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Cor de fundo neutra */
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  /* Seção do ano */
+  .year-section {
+    margin-bottom: 20px;
+  }
+  
+  /* Seção do mês */
+  .month-section {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Seção do dia */
+  .day-section {
+    margin-left: 40px;
+    margin-bottom: 5px;
+  }
+  
+  /* Item de venda */
+  .venda-item {
+    position: relative;
+    background-color: #ffffff; /* Fundo branco */
+    padding: 15px;
+    border: 1px solid #e1e4e8; /* Borda cinza claro */
+    margin-bottom: 15px;
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  }
+  
+  /* Detalhes da venda */
+  .venda-details {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #e1e4e8; /* Borda superior cinza claro */
+  }
+  
+  /* Botão "Ver mais" e botão do seletor de ano */
+  .load-more-button, .year-selector button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007aff; /* Azul padrão do iOS */
+    color: white;
+    border: none;
+    border-radius: 12px; /* Bordas arredondadas */
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover para o botão */
+  .load-more-button:hover, .year-selector button:hover {
+    background-color: #0051a8; /* Azul mais escuro para hover */
+  }
+  
+  /* Seletor de ano */
+  .year-selector {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .year-selector select {
+    margin-left: 10px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #e1e4e8; /* Borda cinza claro */
+    border-radius: 12px; /* Bordas arredondadas */
+    background-color: #ffffff; /* Fundo branco */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Sombra interna leve */
+  }
+  
+  /* Botão de expandir/ocultar */
+  .expand-button {
+    color: #007aff; /* Azul padrão do iOS */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Foco no botão de expandir/ocultar */
+  .expand-button:focus {
+    outline: none;
+  }
+  
+  /* Texto indicando o status de exibição */
+  .exibindo-text {
+    text-align: center;
+    font-weight: bold;
+    color: #007aff; /* Azul padrão do iOS */
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .vendas-count {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .vendasRealizadas-container {
+    padding: 20px;
+  }
+  
+  .year-selector {
+    margin-bottom: 20px;
+  }
+  
+  .month-section, .day-section {
+    margin-bottom: 20px;
+  }
+  
+  .expand-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .venda-details {
+    margin-top: 10px;
+  }
+  
+  .load-more-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .vendas-count {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .load-more-button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .load-more-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .invoice-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  

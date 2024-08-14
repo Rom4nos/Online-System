@@ -1,0 +1,102 @@
+/* PedidosPage.css */
+
+/* Estilização Geral */
+.pedidos-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+  }
+  
+  
+  /* Formulário do Pedido */
+  .pedido-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .pedido-form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .pedido-form div {
+    margin-bottom: 15px;
+  }
+  
+  .pedido-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .pedido-form select, .pedido-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .pedido-form button {
+    background-color: #007aff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pedido-form button:hover {
+    background-color: #0051a8;
+  }
+  
+  /* Resumo do Pedido */
+  .pedido-form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pedido-form li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .pedido-form p {
+    margin: 5px 0;
+  }
+  
+  /* Últimos Pedidos */
+  .ultimos-pedidos {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ultimos-pedidos h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .ultimos-pedidos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ultimos-pedidos li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .ultimos-pedidos p {
+    margin: 5px 0;
+  }
+  

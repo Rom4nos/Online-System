@@ -1,0 +1,302 @@
+/* General container */
+.container-produtos {
+  background-color: #f7f7f7; 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  font-family: 'Roboto', sans-serif; /* Fonte moderna */
+}
+
+/* Page container */
+.produtos-page {
+  flex: 1; 
+  padding: 20px; 
+}
+
+/* Add product section */
+.add-produto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Input container */
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; 
+}
+
+/* Input styling */
+.input-container input {
+  padding: 10px 14px;
+  padding-left: 40px; 
+  font-size: 14px; 
+  width: 140px; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  background-color: #fff; 
+}
+
+/* Input icon */
+.input-icon {
+  position: absolute;
+  left: 12px;
+  color: #999; 
+}
+
+/* File upload button */
+.file-upload {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: #007aff; 
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px; 
+  font-size: 14px; 
+  border: none;
+}
+
+.file-upload:hover {
+  background-color: #0051a8; 
+}
+
+/* Product list */
+.produtos-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Product card */
+.produto {
+  background-color: #fff;
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  padding: 15px;
+  width: 260px; 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Product items */
+.itens-produtos {
+  align-items: center;
+  display: flex;
+}
+
+/* Image container */
+.image-codigo {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+}
+
+.image-codigo img {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+/* Product info */
+.produto-card p {
+  margin: 8px 0; 
+  font-size: 14px; 
+}
+
+/* Product buttons */
+.produto button {
+  padding: 8px 14px; 
+  background-color: #007aff; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px; 
+  margin-top: 10px; 
+}
+
+.produto button:hover {
+  background-color: #0051a8; 
+}
+
+/* Delete button */
+.produto .delete-button {
+  background-color: #db4b44; 
+}
+
+.produto .delete-button:hover {
+  background-color: #cc0000; 
+}
+
+/* Code block */
+.codigo {
+  background-color: #f2f2f2; 
+  border-radius: 8px; 
+  padding: 8px;
+  text-align: center;
+}
+
+.codigo p {
+  font-weight: bold; 
+  color: #007aff; 
+  margin: 0; 
+}
+
+/* Button group */
+.button-group {
+  display: flex;
+  justify-content: space-between; 
+  gap: 5px;
+}
+
+/* Autosuggest */
+.search-bar {
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  width: 100%;
+}
+
+.react-autosuggest__container {
+  flex: 1; /* Faz com que o contêiner de sugestão ocupe o espaço restante */
+  margin-right: 10px; /* Ajuste o espaço entre o input e os botões */
+  width: auto;
+}
+
+.react-autosuggest__input {
+  width: 100%; /* Faz o input ocupar todo o espaço disponível no contêiner */
+  padding: 10px 14px;
+  font-size: 14px; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  background-color: #fff; 
+}
+
+/* Sugestões container */
+.react-autosuggest__suggestions-container {
+  position: absolute;
+  
+  width: 95%; 
+  max-height: 150px; 
+  overflow-y: auto;
+  background-color: #fff; 
+  z-index: 10; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Sugestão item */
+.react-autosuggest__suggestion {
+  padding: 10px; 
+  cursor: pointer;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #f0f0f0; 
+  font-weight: bold; 
+}
+
+/* Buttons page */
+.buttons-page {
+  display: flex; /* Alinha os botões horizontalmente */
+  gap: 10px; /* Espaço entre os botões */
+}
+
+.buttons-page button {
+  background-color: transparent; /* Remove o fundo para o ícone se destacar */
+  border: none; /* Remove a borda */
+  cursor: pointer; /* Indica que é clicável */
+}
+/* Category dropdown */
+.categoria-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; 
+}
+
+.categoria-container label {
+  font-size: 14px; 
+  margin-bottom: 8px; 
+  color: #333; 
+}
+
+.categoria-container select {
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  background-color: #fff; 
+  appearance: none; 
+  width: 100%; 
+  background-image: linear-gradient(45deg, transparent 50%, #007aff 50%), linear-gradient(135deg, #007aff 50%, transparent 50%);
+  background-position: calc(100% - 15px) center, calc(100% - 10px) center;
+  background-repeat: no-repeat;
+  background-size: 12px 12px, 12px 12px;
+}
+
+/* Categoria actions */
+.adicionar-categoria {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Alinha os itens à esquerda */
+  gap: 10px; /* Espaço entre os elementos */
+}
+
+.adicionar-categoria button {
+  align-self: flex-start; /* Alinha o botão à direita */
+  padding: 10px 20px;
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: white; /* Cor do texto */
+  border: none; /* Remove a borda padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Muda o cursor ao passar por cima do botão */
+}
+
+.adicionar-categoria button:hover {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+.adicionar-categoria input {
+  flex: 1; 
+  max-width: 150px; 
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* Categoria Item */
+.lista-categorias {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto; 
+  white-space: nowrap; 
+  padding: 10px 0; 
+}
+
+.categoria-item {
+  width: 200px;
+  flex: 0 0 auto; 
+  margin-right: 15px; 
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .adicionar-categoria {
+    flex-direction: column; /* Alinhamento em coluna para telas menores */
+  }
+}

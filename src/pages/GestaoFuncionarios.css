@@ -1,0 +1,106 @@
+/* src/pages/GestaoFuncionarios.css */
+
+/* Estilo padrão para desktop */
+.gestao-funcionarios {
+  padding: 20px;
+  background-color: #f5f5f7; /* Fundo claro */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.add-employee, .add-sponsor {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-employee input, .add-sponsor input {
+  padding: 10px;
+  border: 1px solid #d1d1d6; /* Borda clara */
+  border-radius: 12px; /* Bordas arredondadas */
+  background-color: #ffffff; /* Fundo branco */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.add-employee button, .add-sponsor button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007aff; /* Azul iOS */
+  color: white;
+  cursor: pointer;
+  border-radius: 12px; /* Bordas arredondadas */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  transition: background-color 0.3s ease;
+}
+
+.add-employee button:hover, .add-sponsor button:hover {
+  background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+.employee-list, .sponsor-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.employee-card, .sponsor-card {
+  padding: 20px;
+  border: 1px solid #d1d1d6; /* Borda clara */
+  border-radius: 12px; /* Bordas arredondadas */
+  background-color: #ffffff; /* Fundo branco */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.employee-card p, .sponsor-card p {
+  margin: 0;
+  color: #1c1c1e; /* Texto escuro */
+}
+
+.employee-card button, .sponsor-card button {
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 12px; /* Bordas arredondadas */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  transition: background-color 0.3s ease;
+}
+
+/* Botão de deletar com cor forte */
+.employee-card button.delete, .sponsor-card button.delete {
+  background-color: #ff3b30; /* Vermelho iOS */
+}
+
+/* Botões de editar e resetar senha com cores claras */
+.employee-card button.edit, .sponsor-card button.edit {
+  background-color: #34c759; /* Verde iOS claro */
+}
+
+.employee-card button.reset, .sponsor-card button.reset {
+  background-color: #ffcc00; /* Amarelo iOS claro */
+}
+
+.employee-card button:hover, .sponsor-card button:hover {
+  background-color: #c82333; /* Vermelho mais escuro ao passar o mouse */
+}
+
+/* Media queries para dispositivos móveis */
+@media (max-width: 768px) {
+  .add-employee, .add-sponsor {
+    flex-direction: column;
+  }
+
+  .employee-card, .sponsor-card {
+    width: 100%;
+  }
+
+  .employee-card, .sponsor-card {
+    padding: 10px;
+  }
+  
+  .employee-card button, .sponsor-card button {
+    padding: 8px 16px;
+  }
+}

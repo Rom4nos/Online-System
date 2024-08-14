@@ -1,0 +1,64 @@
+/* src/pages/LoginPage.css */
+
+/* Style for the entire page */
+.login-page-body {
+    background-color: #f0f0f0; /* Light gray background for login page */
+    font-family: Arial, sans-serif; /* Set font family for login page */
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /* Other styles specific to login page */
+  }
+  
+  .login-container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* White background for the login box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow for a subtle effect */
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Add some space below the heading */
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .login-container form input {
+    padding: 10px; /* Increased padding for inputs */
+    font-size: 16px;
+    border: 1px solid #ccc; /* Add border to inputs */
+    border-radius: 3px; /* Rounded corners */
+  }
+  
+  .login-container form button {
+    padding: 12px; /* Increased padding for button */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px; /* Rounded corners */
+  }
+  
+  .login-container form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: #dc3545; /* Red color for error messages */
+    font-size: 14px;
+    margin-top: 8px; /* Add space above error message */
+    text-align: center;
+  }
+  

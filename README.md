@@ -8,7 +8,7 @@ Aqui estão algumas imagens do projeto, tanto para desktop quanto para mobile:
 
 ### Desktop
 
-![Tela Principal - Desktop](Images/images1.png)
+![Tela Principal - Desktop](Images/Image1.png)
 ![Dashboard - Desktop](Images/images2.png)
 
 ### Mobile
